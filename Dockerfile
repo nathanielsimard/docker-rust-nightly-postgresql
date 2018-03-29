@@ -2,10 +2,13 @@ FROM postgres
 
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
-    ca-certificates curl file \
+    ca-certificates \
+    curl \
+    file \
     build-essential \
     openssl \
     libpq-dev \
+    pkg-config \
     autoconf \
     automake \
     autotools-dev \
