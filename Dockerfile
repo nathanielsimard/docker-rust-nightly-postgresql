@@ -7,6 +7,7 @@ RUN apt-get update && \
     file \
     build-essential \
     openssl \
+    libssl-dev \
     libpq-dev \
     pkg-config \
     autoconf \
